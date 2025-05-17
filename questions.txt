@@ -1,0 +1,101 @@
+1. Reverse a String
+Problem: Write a function to reverse a given string.
+Example: Input: "hello", Output: "olleh"
+
+2. Check for Palindrome
+Problem: Determine if a given string is a palindrome (reads the same forward and backward).
+Example: Input: "racecar", Output: true
+
+3. Find the First Non-Repeating Character
+Problem: Find the first character in a string that does not repeat.
+Example: Input: "swiss", Output: "w"
+
+4. Check for Anagrams
+Problem: Write a function to check if two strings are anagrams of each other.
+Example: Input: "listen", "silent", Output: true
+
+5. Count Vowels and Consonants
+Problem: Write a function to count the number of vowels and consonants in a string.
+Example: Input: "hello", Output: Vowels: 2, Consonants: 3
+
+6. Longest Substring Without Repeating Characters
+Problem: Find the length of the longest substring without repeating characters.
+Example: Input: "abcabcbb", Output: 3 (substring is "abc")
+
+7. Check if String Contains All Unique Characters
+Problem: Determine if a string has all unique characters.
+Example: Input: "abcde", Output: true
+
+8. String Compression
+Problem: Implement a method to perform basic string compression using the counts of repeated characters.
+Example: Input: "aabcccccaaa", Output: "a2b1c5a3"
+
+9. Implement atoi (String to Integer)
+Problem: Write a function that converts a string to an integer.
+Example: Input: "123", Output: 123
+
+10. Check for Substring
+Problem: Implement a function that checks whether one string is a substring of another.
+Example: Input: "hello world", "world", Output: true
+
+11. Find All Permutations of a String
+Problem: Write a function to generate all permutations of a given string.
+Example: Input: "abc", Output: ["abc", "acb", "bac", "bca", "cab", "cba"]
+
+12. Longest Common Prefix
+Problem: Write a function to find the longest common prefix string amongst an array of strings.
+Example: Input: ["flower", "flow", "flight"], Output: "fl"
+
+13. String Rotation
+Problem: Check if one string is a rotation of another string.
+Example: Input: "waterbottle", "erbottlewat", Output: true
+
+14. Remove Duplicates from a String
+Problem: Write a function to remove duplicate characters from a string.
+Example: Input: "programming", Output: "progamin"
+
+15. Find the Longest Palindromic Substring
+Problem: Given a string, find the longest substring that is a palindrome.
+Example: Input: "babad", Output: "bab" or "aba"
+
+ Find Pair with Given Sum
+  Find the Intersection of Two Arrays
+
+//move zeros to end
+  function moveZeros(arr) {
+  let nonZeroArr = arr.filter(num => num !== 0);
+  let zeroCount = arr.length - nonZeroArr.length;
+  return [...nonZeroArr, ...Array(zeroCount).fill(0)];
+}
+
+
+//1st non rep nonfunction firstNonRepeating(arr) {
+  let map = new Map();
+  for (let num of arr) {
+    map.set(num, (map.get(num) || 0) + 1);
+  }
+  for (let num of arr) {
+    if (map.get(num) === 1) return num;
+  }
+  return null; // If no non-repeating element found
+}
+
+
+4. Best Time to Buy and Sell Stock
+You are given an array where each element represents the price of a stock on a given day. 
+You need to find the maximum profit you can achieve from one transaction (i.e., buy one and sell one stock).
+
+Example:
+javascript
+Copy code
+Input: prices = [7, 1, 5, 3, 6, 4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+
+// https://chatgpt.com/c/6732d172-22fc-8004-bd47-d1bc9b73e12b 
+
+interviwe questions
+
+//study some set programs
+
+

@@ -1,0 +1,48 @@
+React Basics:
+What is React? Why is it called a library and not a framework?
+What are the key features of React?
+What is the difference between functional components and class components?
+What is JSX? How is it different from HTML?
+What is the virtual DOM? How does React use it to improve performance?
+Explain the component lifecycle methods in React.
+What is the purpose of useState and how do you use it in functional components?
+How does useEffect work? Can you give an example of its usage?
+What are props in React, and how are they different from state?
+What is the difference between controlled and uncontrolled components?
+Advanced React:
+What are React hooks? Name some commonly used hooks.
+How would you optimize performance in a large React application?
+Explain React's useContext hook and its use case.
+What is the difference between useEffect and useLayoutEffect?
+What is useMemo and useCallback, and when would you use them?
+How does React handle reconciliation?
+What is React Fiber, and how does it differ from the previous React architecture?
+How would you implement code splitting in a React application?
+What are higher-order components (HOCs)? How are they used?
+What is the purpose of React Portals? Can you provide an example?
+React Router and State Management:
+What is React Router? How does routing work in a single-page application (SPA)?
+How do you handle redirects and programmatic navigation in React Router?
+What are the different ways to manage state in a React application?
+Explain the concept of lifting state up in React.
+What is the purpose of Redux, and how is it used in a React application?
+What are some alternatives to Redux for state management?
+How does the Context API differ from Redux?
+How does useReducer hook compare to Redux for managing complex state?
+React Best Practices:
+What are some best practices to follow while structuring a React application?
+How do you handle error boundaries in React?
+How would you implement lazy loading for a component in React?
+What are React Fragments, and why would you use them?
+How do you handle forms in React? Explain the use of react-hook-form or Formik.
+What is PropTypes in React, and how does it help with type checking?
+What is the purpose of key props in lists, and why are they important?
+What is Server-Side Rendering (SSR) in React, and how does it differ from Client-Side Rendering (CSR)?
+How would you improve SEO for a React application?
+What are some common React design patterns?
+React Ecosystem and Tools:
+What is Next.js, and how does it improve the development experience with React?
+Explain the use of React Query for data fetching in a React app.
+How does the React Testing Library help in writing tests for React components?
+What is the role of Webpack in a React project?
+What are some tools or libraries you would use to improve accessibility in React applications?

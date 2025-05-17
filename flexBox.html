@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* to align div horizontal  style="display: flex;justify-content: center;  height: 100vh;*/
+        /* to align div vertical  style="display: flex;align-items: center;  height: 100vh;*/
+        .container {
+            border: 2px solid blueviolet;
+            display: flex;
+            /* if i give disply flex it'll arrange in left to right or horizontal direction */
+            height: 80vh;
+            justify-content: center;
+            align-items: center;
+            /* you can change the justify content and align items like flexend  */
+            /* end ,right,flex end -right
+            left flex start -left
+            space evenyl-evenly space
+            spce between only space is in between
+            space around -end and strat little space and between equal
+
+             */
+            /* flex-direction: row,rowreverse,column,column reverse; reverse means 1223 will become 321 */
+        }
+
+        .item {
+            height: 30px;
+            width: 30px;
+            background-color: tomato;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        .single-line {
+            white-space: nowrap;
+            /* Prevents text from wrapping */
+            overflow: hidden;
+            /* Optional: Hides overflow text */
+            text-overflow: ellipsis;
+            /* Optional: Adds "..." for overflowing text */
+        }
+        :root{
+            --color:blueviolet;
+            --seccolor:bisque
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+    <div class="single-line">
+        This is a very long line of text that I want to keep on one line. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Quasi quam aspernatur et, officiis in impedit ratione facilis vel nemo molestiae similique
+        reiciendis atque aliquam dolores ipsa, voluptatem tempore! Ipsa, natus.
+    </div >
+    <div style="background-color: var(--color,red);">roidon the greate</div>
+    <div style="background-color: var(--seccolor);">im from manglore</div>
+
+</body>
+
+</html>
+<!-- margin auto and 100%   justify cintent alishgn item overflow brea word-->
+
+<!-- horizont axis is called main axis ,vertical axis is called cross axis -->
+<!-- 
+by defult justify content centrer makes center horizontally (main axis )
+and align item center vertically (cross axis)
+
+it depends on flex direction if its row normal,
+if its column main and cross axis will swap
+flex wrap -wrap wraps in new line no-wrap default property
+gap,row gap,column gap
+order - big no cones at last ,small comes first
+flex grow -1 normal ,2 takes twice as others
+
+
+
+ -->
